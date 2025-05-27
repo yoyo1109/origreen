@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "products": "产品",
+    "services": "服务",
+    "about": "关于我们",
+    "cases": "成功案例",
+    "subNav": {
+      "products": {
+        "minerals": "矿物质",
+        "plantExtracts": "植物提取物",
+        "vitamins": "维生素",
+        "aminoAcid": "氨基酸"
+      },
+      "services": {
+        "oem": "OEM代工",
+        "rd": "研发服务",
+        "packaging": "包装设计",
+        "logistics": "物流服务"
+      },
+      "about": {
+        "company": "公司简介",
+        "team": "团队介绍",
+        "certificates": "资质认证"
+      },
+      "cases": {
+        "beauty": "美容养颜",
+        "probiotics": "益生菌",
+        "cardio": "心脑健康",
+        "joint": "关节养护"
+      }
+    }
+  },
+  "hero": {
+    "slide1": {
+      "title": "专注营养健康 · 一站式原料与配方解决方案",
+      "cta": "探索产品"
+    },
+    "slide2": {
+      "title": "严选有机原料，安全可追溯",
+      "cta": "了解我们"
+    },
+    "slide3": {
+      "title": "多剂型 · 多功能 · 差异化竞争",
+      "cta": "联系我们"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "留言",
+      "submit": "发送信息"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 欧瑞格林. 版权所有.",
+    "icp": "浙ICP备XXXXXXXX号"
+  }
+}

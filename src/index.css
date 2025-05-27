@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1B8E5A;
+  --primary-light: #2CAA73;
+  --primary-dark: #15724A;
+  --accent: #FF9130;
+  --accent-light: #FFAD62;
+  --accent-dark: #E57B1E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Noto Sans SC', sans-serif;
+  color: #333333;
+}
+
+.hero-slide {
+  height: 85vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-slide::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 100%);
+}
+
+.hero-content {
+  animation: fadeIn 0.8s ease-in-out 0.6s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.sticky-header {
+  transition: all 0.3s ease;
+}
+
+.product-card {
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .hero-slide {
+    height: 70vh;
+  }
+}

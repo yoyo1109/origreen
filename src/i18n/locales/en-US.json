@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "products": "Products",
+    "services": "Services",
+    "about": "About",
+    "cases": "Cases",
+    "subNav": {
+      "products": {
+        "minerals": "Minerals",
+        "plantExtracts": "Plant Extracts",
+        "vitamins": "Vitamins",
+        "aminoAcid": "Amino Acid"
+      },
+      "services": {
+        "oem": "OEM Solutions",
+        "rd": "R&D Services",
+        "packaging": "Packaging",
+        "logistics": "Logistics"
+      },
+      "about": {
+        "company": "Company",
+        "team": "Team",
+        "certificates": "Certificates"
+      },
+      "cases": {
+        "beauty": "Beauty",
+        "probiotics": "Probiotics",
+        "cardio": "Cardio Health",
+        "joint": "Joint Care"
+      }
+    }
+  },
+  "hero": {
+    "slide1": {
+      "title": "One-stop Nutritional Ingredients Supplier",
+      "cta": "Explore Products"
+    },
+    "slide2": {
+      "title": "Premium & Traceable Organic Sources",
+      "cta": "About Us"
+    },
+    "slide3": {
+      "title": "Diverse Dosage Forms & Competitive Formulas",
+      "cta": "Contact Us"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Origreen. All rights reserved.",
+    "icp": "ICP License XXXXXXXX"
+  }
+}
