@@ -1,0 +1,14 @@
+name = "origreen-site"
+compatibility_date = "2024-05-01"
+
+[build]
+command = "npm run build"
+directory = "dist"
+
+[site]
+bucket = "./dist"
+entry-point = "."
+
+# Optional: only if you want to include static asset handling in Pages Functions
+#[[plugins]]
+#name = "cloudflare/kv-assets"
