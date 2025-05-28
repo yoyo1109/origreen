@@ -19,10 +19,10 @@ export default {
         sans: ['Inter', 'Noto Sans SC', 'sans-serif'],
       },
       borderRadius: {
-        default: '12px',
+        'lg': '12px',
       },
       boxShadow: {
-        card: '0 2px 8px rgba(0,0,0,0.08)',
+        soft: '0 2px 8px rgba(0,0,0,0.08)',
         'card-hover': '0 8px 24px rgba(0,0,0,0.12)',
       },
       screens: {

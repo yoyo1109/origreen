@@ -61,16 +61,20 @@ body {
   box-shadow: 0 8px 24px rgba(0,0,0,0.12);
 }
 
+/* Swiper Pagination Styles */
 .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background: rgba(255, 255, 255, 0.6);
-  opacity: 0.6;
+  background-color: #ffffff !important; /* White inactive bullet */
+  opacity: 0.5 !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 5px !important;
+  border-radius: 50%; /* Ensure they are round */
+  transition: opacity 0.3s, background-color 0.3s;
 }
 
 .swiper-pagination-bullet-active {
-  background: var(--primary);
-  opacity: 1;
+  background-color: #FF9130 !important; /* Accent color for active bullet */
+  opacity: 1 !important;
 }
 
 @media (max-width: 768px) {
